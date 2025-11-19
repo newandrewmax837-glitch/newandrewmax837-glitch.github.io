@@ -25,6 +25,3 @@ No son necesarias otras etiquetas, pero es común usar <figure> y <figcaption> p
 ¿Es posible crear un fondo usando solo <img>? 
 Técnicamente se podría colocar una <img> con posición absoluta para cubrir el fondo, pero no es recomendable. Es mejor usar CSS (background-image) porque permite control de posición, tamaño (cover/contain), repetición y accesibilidad.
 
-Comentarios para dos compañeros:
-1) Buen aporte, me gustó cómo explicaste la diferencia entre <div> y <span>. Una sugerencia: añade un ejemplo visual para clarificar cómo afectan al flujo del documento.
-2) Interesante ejemplo con <figure>. Complementaría mostrando cómo añadir estilos responsivos para que la imagen y el título se adapten en móviles.
