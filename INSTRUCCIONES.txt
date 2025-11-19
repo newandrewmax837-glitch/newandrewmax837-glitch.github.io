@@ -1,0 +1,13 @@
+INSTRUCCIONES:
+Carpeta creada para subir a GitHub Pages.
+Archivos principales:
+- index.html
+- styles.css
+- script.js
+- Andrew_Gutierrez_Reporte_Proyecto.docx (o .txt si no se pudo generar)
+- forum_participation.txt
+
+Archivo de referencia original subido por el usuario:
+- /mnt/data/Formato actividad académoca - Transferencia.pdf
+
+Para publicar: subir todos los archivos al repositorio en GitHub y activar GitHub Pages (branch: main).

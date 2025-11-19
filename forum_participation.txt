@@ -1,0 +1,30 @@
+Participación foro - Estructura con <div> y <span>
+
+Hola, compañeros. 
+
+Las etiquetas <div> y <span> son contenedores semánticamente neutros que se usan para agrupar contenido. 
+- <div> se usa como contenedor de bloque (block-level) para agrupar secciones completas del contenido.
+- <span> se usa como contenedor en línea (inline) para envolver texto o elementos dentro de un bloque sin alterar el flujo.
+
+Para estructurar una imagen y un título:
+Se recomienda usar un <div> como contenedor principal, dentro colocar la etiqueta <img> y un elemento <h3> o <h2> para el título. Un ejemplo:
+
+<div class="card">
+  <img src="ruta/imagen.jpg" alt="Descripción" />
+  <h3>Título de la imagen</h3>
+  <p>Descripción breve</p>
+</div>
+
+No son necesarias otras etiquetas, pero es común usar <figure> y <figcaption> por accesibilidad semántica:
+
+<figure>
+  <img src="ruta/imagen.jpg" alt="Descripción">
+  <figcaption>Título o pie de foto</figcaption>
+</figure>
+
+¿Es posible crear un fondo usando solo <img>? 
+Técnicamente se podría colocar una <img> con posición absoluta para cubrir el fondo, pero no es recomendable. Es mejor usar CSS (background-image) porque permite control de posición, tamaño (cover/contain), repetición y accesibilidad.
+
+Comentarios para dos compañeros:
+1) Buen aporte, me gustó cómo explicaste la diferencia entre <div> y <span>. Una sugerencia: añade un ejemplo visual para clarificar cómo afectan al flujo del documento.
+2) Interesante ejemplo con <figure>. Complementaría mostrando cómo añadir estilos responsivos para que la imagen y el título se adapten en móviles.
