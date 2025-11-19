@@ -1,1 +1,1 @@
-Sitio generado para Andrew Smith Gutiérrez Cardozo. Subir el contenido de esta carpeta a un repo en GitHub y activar GitHub Pages (branch: main) para publicar.
+Sitio de Andrew Smith Gutiérrez Cardozo 
